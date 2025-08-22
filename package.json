@@ -1,0 +1,21 @@
+{
+  "name": "api-estoque",
+  "version": "1.0.0",
+  "description": "Aplicativo de controle de estoque",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest"
+  },
+  "author": "Matheus coelho santos",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7"
+  }
+}
